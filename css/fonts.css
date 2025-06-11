@@ -5,22 +5,30 @@
     src: url('../fonts/Raleway-Regular.ttf');
 }
 
-body {   
-    font-family: 'Raleway',sans-serif;
-    font-size: 16px;   
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
     color: var(--textColor);
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 24px;
+    margin-block-start: 10.72px;
+    margin-block-end: 10.72px;
 }
 
 h2 {
-    font-size: 32px;
-    margin: 50px 20px 50px 20px;
-    color: var(--primaryColor);
+    font-size: 24px;
+    margin-block-start: 13.28px;
+    margin-block-end: 13.28px;
+}
+
+h3 {
+    font-size: 19px;
+    margin-block-start: 16px;
+    margin-block-end: 16px;
 }
 
 p {
-    margin: 0px 20px 0px 20px;
+    font-size: 16px;
 }

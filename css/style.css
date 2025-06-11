@@ -1,25 +1,7 @@
-
 @import url(./fonts.css);
 @import url(./main.css);
+@import url(./header_footer.css);
 
 body {
     background-color: var(--backgroundColor);
-}
-
-#test {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--sectionColor);
-    height: 150px;
-    padding: 20px 20px 20px 20px;
-}
-
-button {
-    padding: 10px;
-    margin: 50px 20px 50px 20px;
-    background-color: var(--primaryColor);
-    border: none;
-    border-radius: 10px;
-    color: var(--backgroundColor);
 }
