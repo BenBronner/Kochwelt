@@ -1,0 +1,14 @@
+* {
+    /* Farben */
+    --primaryColor: #008000;
+    --secondaryColor: #403B3B;
+    --sectionColor: #EFEFEF;
+    --textColor: #000000;
+    --backgroundColor: #ffffff;
+    /* Abstände */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
