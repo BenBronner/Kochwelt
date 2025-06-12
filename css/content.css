@@ -22,7 +22,7 @@
     margin-top: 15px;
 }
 
-.banner-section a {
+.button {
     text-decoration: none;
     background-color: var(--primaryColor);
     color: var(--backgroundColor);
