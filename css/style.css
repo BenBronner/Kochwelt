@@ -1,15 +1,23 @@
 @import url(fonts.css);
 @import url(main.css);
 @import url(header_footer.css);
+@import url(content.css);
 
 body {
-    background-color: var(--backgroundColor);
+    display: flex;
+    flex-direction: column;  
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    margin: 0px;
 }
 
-/* main {
+main {
     display: flex;
+    flex-direction: column;
     width: 100%;
-    max-width: 1440px;
-    margin: 0 auto;
-    padding-left:10px;
-} */
+}
+
+.content {
+    min-height: 100vh;
+}
+

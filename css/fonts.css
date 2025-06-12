@@ -13,20 +13,20 @@ body {
 
 h1 {
     font-size: 24px;
-    margin-block-start: 10.72px;
-    margin-block-end: 10.72px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
 }
 
 h2 {
     font-size: 24px;
-    margin-block-start: 13.28px;
-    margin-block-end: 13.28px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
 }
 
 h3 {
-    font-size: 19px;
-    margin-block-start: 16px;
-    margin-block-end: 16px;
+    font-size: 18px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
 }
 
 p {
