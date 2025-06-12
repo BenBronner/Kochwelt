@@ -1,7 +1,8 @@
+/* Hier kommt alles rein was Layout allgemein betrifft! */
 @import url(fonts.css);
-@import url(main.css);
+@import url(color.css);
 @import url(header_footer.css);
-@import url(content.css);
+@import url(content-frontpage.css);
 
 body {
     display: flex;

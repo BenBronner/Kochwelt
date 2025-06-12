@@ -1,4 +1,5 @@
-@import url(main.css);
+/* Hier bitte alles was Schrift allgemein betrifft */
+@import url(color.css);
 
 @font-face {
     font-family: 'Raleway';
