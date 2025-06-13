@@ -28,5 +28,7 @@ main {
     color: var(--backgroundColor);
     padding: 8px 28px;
     cursor: pointer;
-
+    width: 200px;
+    margin-top: 30px;
+    text-align: center;
 }
