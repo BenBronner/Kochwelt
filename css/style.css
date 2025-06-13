@@ -22,3 +22,11 @@ main {
     min-height: 100vh;
 }
 
+.button {
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    color: var(--backgroundColor);
+    padding: 8px 28px;
+    cursor: pointer;
+
+}

@@ -23,16 +23,6 @@
     margin-top: 15px;
 }
 
-.button {
-    text-decoration: none;
-    background-color: var(--primaryColor);
-    color: var(--backgroundColor);
-    padding: 8px 28px;
-    cursor: pointer;
-    position: absolute;
-    top: 420px;
-}
-
 .banner-img {
     display: flex;
     border-radius: 25px;
