@@ -31,14 +31,14 @@ function calculatePortion() {
     document.getElementById("ingredients1").innerHTML = (amount1) / 4 * +itemamount.value;
     document.getElementById("ingredients2").innerHTML = (amount2) / 4 * +itemamount.value;
     document.getElementById("ingredients3").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients4").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients5").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients6").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients7").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients8").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients9").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients10").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients11").innerHTML = (amount3) / 4 * +itemamount.value;
-    document.getElementById("ingredients12").innerHTML = (amount3) / 4 * +itemamount.value;
+    document.getElementById("ingredients4").innerHTML = (amount4) / 4 * +itemamount.value;
+    document.getElementById("ingredients5").innerHTML = (amount5) / 4 * +itemamount.value;
+    document.getElementById("ingredients6").innerHTML = (amount6) / 4 * +itemamount.value;
+    document.getElementById("ingredients7").innerHTML = (amount7) / 4 * +itemamount.value;
+    document.getElementById("ingredients8").innerHTML = (amount8) / 4 * +itemamount.value;
+    document.getElementById("ingredients9").innerHTML = (amount9) / 4 * +itemamount.value;
+    document.getElementById("ingredients10").innerHTML = (amount10) / 4 * +itemamount.value;
+    document.getElementById("ingredients11").innerHTML = (amount11) / 4 * +itemamount.value;
+    document.getElementById("ingredients12").innerHTML = (amount12) / 4 * +itemamount.value;
 };
 
