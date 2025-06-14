@@ -1,11 +1,16 @@
+table {
+    margin-top: 20px;
+    width: 100%;
+}
+
 td {
-    padding: 10px;
+    padding:20px 40px 20px 40px;
     border-radius: 8px;
 
 }
 
 tr:nth-child(odd) {
-    background-color: rgba(235, 235, 235, 0.904);
+    background-color: var(--sectionColor);
 }
 
 
