@@ -37,7 +37,7 @@
             <div class="iconContent">
                 <div class="icon_info">
                     <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
-                    <Span>10 min</Span>
+                    <Span>15 min</Span>
                 </div>
                 <div class="icon_info">
                     <img class="min-icon" src="./assets/img/icons/brain-solid.svg" alt="">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="icon_info">
                     <img class="min-icon" src="./assets/img/icons/calendar-alt-regular.svg" alt="">
-                    <span>13.06.2025</span>
+                    <span>14.06.2025</span>
                 </div>
             </div>
             <div class="separator"></div>
@@ -53,68 +53,102 @@
 
         <!-- Section Table -->
         <section class="sectionTable">
-        <form onsubmit="calculatePortion(); return false" class="calculatesection">
-            <div class="inputsection">
-                <label for="itemamount">Zutaten für: </label>
-                <input type="number" id="itemamount" value="4" min="1" max="10" required>
-                <label for="button">
-                    <button type="submit" id="button" class="button" name="Portionen">Portionen</button>
+            <form onsubmit="calculatePortion(); return false" class="calculatesection">
+                <div class="inputsection">
+                    <label for="itemamount">Zutaten für: </label>
+                    <input type="number" id="itemamount" value="4" min="1" max="10" required>
+                    <label for="button">
+                        <button type="submit" id="button" class="button" name="Portionen">Portionen</button>
+                </div>
+            </form>
+
+            <table>
+                <tr>
+                    <td><span id="ingredients1"></span>g Wiener Würstchen</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients2"></span> Zwiebel</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients3"></span> Knoblauchzehe</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients4"></span> rote Paprikaschote</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients5"></span> EL Olivenöl</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients6"></span>g Speckwürfel</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients7"></span> EL Tomatenmark</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients8"></span>ml Rinderbrühe</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients9"></span>g gehackte Tomaten</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients10"></span>g Crème fraîche</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients11"></span> TL Paprikapulver edelsüß</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients12"></span> EL gehackte Petersilie</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients13"></span>Salz und Pfeffer</td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section class="sectionPreparation">
+            <h2>Zubereitung</h2>
+
+            <div class="iconContent">
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
+                    <Span>Zubereitungzeit: 15 min</Span>
+                </div>
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
+                    <span>Gesamtzeit: 35 min</span>
+                </div>
             </div>
-        </form>
 
-        <table class="itemsection">
-            <tr>
-                <td><span id="ingredients1"></span>g Wiener Würstchen</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients2"></span> Zwiebel</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients3"></span> Knoblauchzehe</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients4"></span> rote Paprikaschote</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients5"></span> EL Olivenöl</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients6"></span>g Speckwürfel</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients7"></span> EL Tomatenmark</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients8"></span>ml Rinderbrühe</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients9"></span>g gehackte Tomaten</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients10"></span>g Crème fraîche</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients11"></span> TL Paprikapulver edelsüß</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients12"></span> EL gehackte Petersilie</td>
-            </tr>
-
-            <tr>
-                <td><span id="ingredients13"></span>Salz und Pfeffer</td>
-            </tr>
-        </table>
+            <ol>
+                <li>Würstchen in Scheiben schneiden. Zwiebel und Knoblauch klein schneiden. Paprika würfeln.</li>
+                <li>Öl in einem Topf erhitzen und Speck und Zwiebeln für 2 Minuten anbraten. Würstchen, Knoblauch und
+                    Paprika zugeben und weitere 2 Minuten braten. Tomatenmark einrühren und kurz anrösten.</li>
+                <li>Rinderbrühe und gehackten Tomaten unterrühren und alles mit Paprikapulver, Salz und Pfeffer würzen.
+                    Würstchengulasch bei mittlerer Hitze 20 Minuten köcheln lassen. Kurz vor Ende der Kochzeit
+                    Petersilie und Crème fraîche unterheben. </li>
+            </ol>
+            <a class="button" href="https://www.gaumenfreundin.de/wuerstchengulasch/">Link zum Rezept</a>
+            
+            <div class="author">
+                <h3>Rezept erstellt von</h3>
+                <div class="profilpicture">
+                    <img src="./img/Ben.JPG">
+                    <h2>Ben Bronner</h2>
+                </div>
+            </div>
         </section>
     </main>
     <!-- -----end----- -->
