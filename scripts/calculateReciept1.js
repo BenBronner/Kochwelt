@@ -1,16 +1,16 @@
 // Menge als Variable
-const amount1 = 600;
-const amount2 = 1;
-const amount3 = 1;
-const amount4 = 1;
-const amount5 = 1;
-const amount6 = 50;
-const amount7 = 2;
-const amount8 = 300;
-const amount9 = 400;
-const amount10 = 100;
-const amount11 = 1;
-const amount12 = 1;
+const amount1 = 600;    // g Wiener Würstchen
+const amount2 = 1;      // Zwiebel
+const amount3 = 1;      // Knoblauchzehe
+const amount4 = 1;      // rote Paprikaschote
+const amount5 = 1;      // EL Olivenöl
+const amount6 = 50;     // g Speckwürfel
+const amount7 = 2;      // EL Tomatenmark
+const amount8 = 300;    // ml Rinderbrühe
+const amount9 = 400;    // g gehackte Tomaten
+const amount10 = 100;   // g Crème fraîche
+const amount11 = 1;     // TL Paprikapulver edelsüß
+const amount12 = 1;     // EL gehackte Petersilie
 
 // Einfügen des Variablenwerts in die Tabelle mit document.getElementById
 document.getElementById('ingredients1').textContent = amount1;
