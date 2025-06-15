@@ -87,14 +87,14 @@
 
 .section2 {
     display: flex;
-    align-items: center;
     justify-content: start;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     max-width: 1440px;
-    margin: 10 auto;
+    margin: 0 auto;
     padding-right: 20px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 
@@ -106,14 +106,18 @@
 }
 
 .zutaten-2 {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    margin-right: 16px;
+    margin-left: 16px;
     padding: 8px 50px;
 }
 
 
+.button {
+    padding: 10px;
+    width: 170px;
+    margin-top: 0px;
+    text-align: center;
+    border: none;
+}
 
 .section3 {
     display: flex;
@@ -122,7 +126,7 @@
     flex-direction: column;
     width: 100%;
     max-width: 1440px;
-    margin: 32 auto;
+    margin: 0 auto;
     padding-right: 20px;
     padding-left: 30px;
 }
