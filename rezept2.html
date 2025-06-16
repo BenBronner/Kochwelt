@@ -56,14 +56,15 @@
 
 
         <div class="section2">
+            <form onsubmit="calculatePortion(); return false">
             <div class="zutaten-1">
                 <p>Zutaten f&#252r</p>
-                <input type="number" id="quantity" name="quantity" min="1" max="10" class="zutaten-2">
+                <input type="number" id="quantity" name="quantity" value="4" min="1" max="10" class="zutaten-2">
          
                 <input type="submit" value="Portionen" class="button btn-position" />
                   
             </div>
-
+            </form>
             <div class="zutaten-1">
             <table>
                 <tr>
@@ -72,23 +73,23 @@
 
                 </tr>
                 <tr>
-                    <td>5 dl</td>
+                    <td><span id="quantity1">5</span> dl</td>
                     <td>Milch</td>
                 </tr>
                 <tr>
-                    <td>2 - 3 EL</td>
+                    <td><span id="quantity2">2.5</span> EL</td>
                     <td>Maisstärke</td>
                 </tr>
                 <tr>
-                    <td>1 TL</td>
+                    <td><span id="quantity3">1</span> TL</td>
                     <td>Vanillepulver/-Paste</td>
                 </tr>
                 <tr>
-                    <td>4 - 5 EL</td>
+                    <td><span id="quantity4">4.5</span> EL</td>
                     <td>Zucker</td>
                 </tr>
                 <tr>
-                    <td>250g</td>
+                    <td><span id="quantity5">250</span>g</td>
                     <td>Butter, Weich</td>
                 </tr>
             </table>
@@ -147,7 +148,7 @@
 
     </footer>
     <!-- -----end----- -->
-
+<script src="./scripts/calculateResieptSimple.js"></script>
 </body>
 
 </html>
