@@ -11,6 +11,16 @@
     padding-top: 64px;
 }
 
+.imgBanner {
+    font-family: "Raleway", bold;
+    background-image: url("../img/KB_BB_1995_135_Leichte_Buttercreme-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 15px;
+}
 
 .min-icon {
     width: 16px;

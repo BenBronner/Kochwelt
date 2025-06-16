@@ -11,6 +11,17 @@
     padding-top: 64px;
 }
 
+.imgBanner {
+    font-family: "Raleway", bold;
+    background-image: url("../img/borscht-5003688_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 15px;
+}
+
 .iconContent {
     padding-top: 32px;
     display: flex;
