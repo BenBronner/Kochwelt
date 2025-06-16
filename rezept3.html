@@ -7,7 +7,7 @@
     <link rel="icon" href="favicon.svg" sizes="48x48" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/rezept3.css">
-    <title>Rezept 3</title>
+    <title>Bärlauchbutter</title>
 </head>
 
 <body>
@@ -29,7 +29,87 @@
 
     <!-- Content Section -->
     <main class="content">
-        <h1>Rezept 3</h1>
+        <!-- Section Banner -->
+        <section class="sectionBanner">
+            <h1>Bärlauchbutter</h1>
+            <div class="imgBanner"></div>
+            <div class="iconContent">
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
+                    <Span>10 min</Span>
+                </div>
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/brain-solid.svg" alt="">
+                    <span>simpel</span>
+                </div>
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/calendar-alt-regular.svg" alt="">
+                    <span>16.06.2025</span>
+                </div>
+            </div>
+            <div class="separator"></div>
+        </section>
+
+        <!-- Section Table -->
+        <section class="sectionTable">
+            <form onsubmit="calculatePortion(); return false">
+                <div class="inputsection">
+                    <label for="itemamount">Zutaten für: </label>
+                    <input type="number" id="itemamount" value="4" min="1" max="10" required>
+                    <label for="button">
+                        <button type="submit" id="button" class="button" name="Portionen">Portionen</button>
+                </div>
+            </form>
+
+            <table>
+                <tr>
+                    <td><span id="ingredients1"></span>g Butter</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients2"></span>g Sonnenblumenöl</td>
+                </tr>
+
+                <tr>
+                    <td><span id="ingredients3"></span>g Bärlauch</td>
+                </tr>
+
+                <tr>
+                    <td>n.B. Salz und Pfeffer</td>
+                </tr>
+
+            </table>
+        </section>
+
+
+        <section class="sectionPreparation">
+            <h2>Zubereitung</h2>
+
+            <div class="iconContent">
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
+                    <Span>Kochzeit: 10 min</Span>
+                </div>
+                <div class="icon_info">
+                    <img class="min-icon" src="./assets/img/icons/clock-regular.svg" alt="">
+                    <span>Gesamtzeit: 20 min</span>
+                </div>
+            </div>
+
+            <ol>
+                <li>Bärlauch waschen, trocknen und in dünne Scheiben schneiden</li>
+                <li>Alle Zutaten in einen Messbecher geben und mit einem Pürierstab zu einer feinen grünen Bärlauchbutter pürieren</li>
+            </ol>
+
+            
+            <div class="author">
+                <h3>Rezept erstellt von</h3>
+                <div class="profilpicture">
+                    <img src="./img/Fabian.webp">
+                    <h2>Fabian</h2>
+                </div>
+            </div>
+        </section>
     </main>
     <!-- -----end----- -->
 
@@ -51,7 +131,8 @@
 
     </footer>
     <!-- -----end----- -->
-
+     
+<script src="./scripts/calculateReciept3.js"></script>
 </body>
 
 </html>

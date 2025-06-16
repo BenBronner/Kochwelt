@@ -4,6 +4,8 @@
 @import url(header_footer.css);
 @import url(content-frontpage.css);
 @import url(table.css);
+@import url(mobil-menu.css);
+@import url(responsive.css);
 
 body {
     display: flex;
