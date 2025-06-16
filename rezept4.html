@@ -52,89 +52,70 @@
         </div>
 
         <div class="section2">
-            <div class="ingredient-table">
+            <form onsubmit="calculatePortion(); return false"></form>
+            <div class="zutaten-1">
+                
                 <p>Zutaten für</p>
-                <input type="number" id="quantity" name="quantity" min="1" max="10" class="input">
+                <input type="number" id="quantity" name="quantity" value="4" min="1" max="10" class="zutaten-2">
                 <input type="submit" value="Portionen" class="button btn-position" />
             </div>
+            </form>
 
             <div class="ingredient-table">
                 <table>
                     <tr>
-                        <th>Menge</th>
-                        <th>Zutaten</th>
+                        <td><span id="quantity1">1.20</span> L Wasser</td>
                     </tr>
                     <tr>
-                        <td><span id="quantity1"></span>1,20 L</td>
-                        <td>Wasser</td>
+                        <td><span id="quantity2">300</span>g Rindfleisch (z. B. Suppenfleisch ohne Knochen)</td>
                     </tr>
                     <tr>
-                        <td>300 g</td>
-                        <td>Rindfleisch (z. B. Suppenfleisch ohne Knochen)</td>
+                        <td><span id="quantity3">1</span> Zwiebel</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>Zwiebel</td>
+                        <td><span id="quantity4">2</span> Knoblauchzehen</td>
                     </tr>
                     <tr>
-                        <td>2</td>
-                        <td>Knoblauchzehen</td>
+                        <td><span id="quantity5">300</span>g frische Rote Bete</td>
                     </tr>
                     <tr>
-                        <td>300 g</td>
-                        <td>frische Rote Bete</td>
+                        <td><span id="quantity6">300</span>g Kartoffeln (mehlig- oder festkochend)</td>
                     </tr>
                     <tr>
-                        <td>300 g</td>
-                        <td>Kartoffeln (mehlig- oder festkochend)</td>
+                        <td><span id="quantity7">150</span>g Möhren</td>
                     </tr>
                     <tr>
-                        <td>150 g</td>
-                        <td>Möhren</td>
+                        <td><span id="quantity8">200</span>g Weißkohl</td>
                     </tr>
                     <tr>
-                        <td>200 g</td>
-                        <td>Weißkohl</td>
+                        <td><span id="quantity9">150</span>g Tomaten</td>
                     </tr>
                     <tr>
-                        <td>150 g</td>
-                        <td>Tomaten</td>
+                        <td><span id="quantity10">1</span> EL Rapsöl</td>
                     </tr>
                     <tr>
-                        <td>1 EL</td>
-                        <td>Rapsöl</td>
+                        <td><span id="quantity11">1</span> EL Mehl</td>
                     </tr>
                     <tr>
-                        <td>1 EL</td>
-                        <td>Mehl</td>
+                        <td><span id="quantity12">1</span> Lorbeerblatt</td>
                     </tr>
                     <tr>
-                        <td>1</td>
-                        <td>Lorbeerblatt</td>
+                        <td><span id="quantity13">0.5</span> TL Salz</td>
                     </tr>
                     <tr>
-                        <td>½ TL</td>
-                        <td>Salz</td>
+                        <td><span id="quantity14">0.5</span> TL frisch gemahlener Pfeffer</td>
                     </tr>
                     <tr>
-                        <td>½ TL</td>
-                        <td>frisch gemahlener Pfeffer</td>
+                        <td><span id="quantity15">1</span> EL Zitronensaft</td>
                     </tr>
                     <tr>
-                        <td>1 EL</td>
-                        <td>Zitronensaft</td>
+                        <td><span id="quantity16">1</span> Bd. frische Petersilie</td>
                     </tr>
                     <tr>
-                        <td>1 Bd.</td>
-                        <td>frische Petersilie</td>
+                        <td><span id="quantity17">100</span>g Saure Sahne (max. 10 % Fett)</td>
                     </tr>
                     <tr>
-                        <td>100 g</td>
-                        <td>Saure Sahne (max. 10 % Fett)</td>
-                    </tr>
-                    <tr>
-                        <td>4 Scheiben</td>
-                        <td>Vollkornbrot</td>
+                        <td><span id="quantity18">4</span> Scheiben Vollkornbrot</td>
                     </tr>
                 </table>
             </div>
@@ -193,7 +174,7 @@
 
     </footer>
     <!-- -----end----- -->
-
+<script src="./scripts/calculateResieptSimple2.js"></script>
 </body>
 
 </html>
