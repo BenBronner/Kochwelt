@@ -1,0 +1,30 @@
+.kontakt-formular {
+    max-width: 500px;
+    margin: 100px auto;
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 10px;
+}
+.kontakt-formular h2 {
+    margin-top: 0;
+}
+.kontakt-formular input,
+.kontakt-formular textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.kontakt-formular .button-wrapper {
+    text-align: center;
+    margin-top: 10px;
+}
+.kontakt-formular button {
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} 
