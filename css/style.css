@@ -39,6 +39,18 @@ main {
     border: none;
 }
 
+.button2 {
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    color: var(--backgroundColor);
+    padding: 8px 28px;
+    cursor: pointer;
+    width: 170px;
+    margin-top: 30px;
+    text-align: center;
+    border: none;
+}
+
 .section-container {
     display: flex;
     flex-direction: column;

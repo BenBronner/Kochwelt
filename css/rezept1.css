@@ -159,3 +159,85 @@ h1 {
     margin-bottom: 15px;
     border-radius: 70px;
 }
+
+@media(max-width: 768px) {}
+
+@media(max-width: 425px) {
+    .sectionBanner {
+        padding-top: 32px;
+    }
+
+    .inputsection {
+        margin-left: 10px;
+    }
+
+    .iconContent {
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .icon_info {
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .separator {
+        margin-top: 0px;
+    }
+
+    .inputsection input {
+        width: 90px;
+    }
+
+    .sectionPreparation a {
+        margin: auto;
+    }
+
+    .button {
+        width: 120px;
+    }
+
+    .button2 {
+        margin: auto;
+        width: 220px;
+    }
+}
+
+@media(max-width: 320px) {
+    .sectionBanner {
+        padding-top: 32px;
+    }
+
+    .inputsection {
+        margin-left: 10px;
+    }
+
+    .iconContent {
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .icon_info {
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .separator {
+        margin-top: 0px;
+    }
+
+    .inputsection input {
+        width: auto;
+    }
+
+    .button {
+        width: 120px;
+    }
+
+    .button2 {
+        margin: auto;
+        width: 220px;
+    }
+}
