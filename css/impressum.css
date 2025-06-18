@@ -29,6 +29,10 @@
 @media(max-width: 768px) {}
 
 @media(max-width: 425px) {
+    .impressum-css {
+        margin-top: 0px;
+    }
+
     .verantworlich {
         flex-direction: column;
     }
