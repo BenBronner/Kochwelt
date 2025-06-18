@@ -25,3 +25,13 @@
     padding-left: 50px;
     padding-right: 50px;
 }
+
+@media(max-width: 768px) {}
+
+@media(max-width: 425px) {
+    .verantworlich {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 320px) {}
