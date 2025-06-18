@@ -151,6 +151,15 @@
 
     }
 
+    .social-media {
+        display: flex;
+        gap: 15px;
+    }
+
+    .social-media-pic {
+        height: 25px;
+    }
+
 }
 
 @media(max-width: 375px) {
