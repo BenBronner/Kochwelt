@@ -14,14 +14,25 @@
     <!-- Header Section -->
     <div class="header_box">
         <header>
-            <a href="index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
             <nav id="header-nav" class="header-nav">
                 <ul class="desktop-menu">
-                    <li><a href="./index.html" class="header_nav_link active-page">Start</a></li>
+                    <li><a href="./index.html" class="header_nav_link">Start</a></li>
                     <li><a href="./rezept1.html" class="header_nav_link">Rezept des Tages</a></li>
                     <li><a href="./contact.html" class="header_nav_link">Kontakt</a></li>
                     <li><a href="./imprint.html" class="header_nav_link">Impressum</a></li>
                 </ul>
+                <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="./index.html" class="mobile-nav-link">Start</a></li>
+                        <li><a href="./rezept1.html" class="mobile-nav-link">Rezept des Tages</a></li>
+                        <li><a href="./contact.html" class="mobile-nav-link">Kontakt</a></li>
+                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -94,10 +105,11 @@
 
             <ol>
                 <li>Bärlauch waschen, trocknen und in dünne Scheiben schneiden</li>
-                <li>Alle Zutaten in einen Messbecher geben und mit einem Pürierstab zu einer feinen grünen Bärlauchbutter pürieren</li>
+                <li>Alle Zutaten in einen Messbecher geben und mit einem Pürierstab zu einer feinen grünen
+                    Bärlauchbutter pürieren</li>
             </ol>
 
-            
+
             <div class="author">
                 <h3>Rezept erstellt von</h3>
                 <div class="profilpicture">
@@ -127,8 +139,8 @@
 
     </footer>
     <!-- -----end----- -->
-     
-<script src="./scripts/calculateReciept3.js"></script>
+    <script src="./scripts/mobil-menu.js"></script>
+    <script src="./scripts/calculateReciept3.js"></script>
 </body>
 
 </html>

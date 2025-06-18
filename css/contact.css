@@ -1,13 +1,23 @@
+.kontakt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
 .kontakt-formular {
     max-width: 500px;
-    margin: 100px auto;
+    /* margin: 100px auto; */
     background-color: #e0e0e0;
     padding: 30px;
     border-radius: 10px;
 }
+
 .kontakt-formular h2 {
     margin-top: 0;
 }
+
 .kontakt-formular input,
 .kontakt-formular textarea {
     width: 100%;
@@ -16,10 +26,12 @@
     border: none;
     border-radius: 5px;
 }
+
 .kontakt-formular .button-wrapper {
     text-align: center;
     margin-top: 10px;
 }
+
 .kontakt-formular button {
     background-color: #008000;
     color: white;

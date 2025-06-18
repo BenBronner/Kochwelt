@@ -1,0 +1,27 @@
+.impressum-css {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.impressum-css h2 {
+    margin-top: 48px;
+}
+
+.verantworlich {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: start;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+}

@@ -14,14 +14,25 @@
     <!-- Header Section -->
     <div class="header_box">
         <header>
-            <a href="index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
             <nav id="header-nav" class="header-nav">
                 <ul class="desktop-menu">
-                    <li><a href="./index.html" class="header_nav_link active-page">Start</a></li>
-                    <li><a href="./rezept1.html" class="header_nav_link">Rezept des Tages</a></li>
+                    <li><a href="./index.html" class="header_nav_link">Start</a></li>
+                    <li><a href="./rezept1.html" class="header_nav_link active-page">Rezept des Tages</a></li>
                     <li><a href="./contact.html" class="header_nav_link">Kontakt</a></li>
                     <li><a href="./imprint.html" class="header_nav_link">Impressum</a></li>
                 </ul>
+                <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="./index.html" class="mobile-nav-link">Start</a></li>
+                        <li><a href="./rezept1.html" class="mobile-nav-link">Rezept des Tages</a></li>
+                        <li><a href="./contact.html" class="mobile-nav-link">Kontakt</a></li>
+                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -139,8 +150,9 @@
                     Würstchengulasch bei mittlerer Hitze 20 Minuten köcheln lassen. Kurz vor Ende der Kochzeit
                     Petersilie und Crème fraîche unterheben. </li>
             </ol>
-            <a class="button" href="https://www.gaumenfreundin.de/wuerstchengulasch/" target="_blank">Link zum Rezept</a>
-            
+            <a class="button" href="https://www.gaumenfreundin.de/wuerstchengulasch/" target="_blank">Link zum
+                Rezept</a>
+
             <div class="author">
                 <h3>Rezept erstellt von</h3>
                 <div class="profilpicture">
@@ -170,8 +182,8 @@
 
     </footer>
     <!-- -----end----- -->
-     
-<script src="./scripts/calculateReciept1.js"></script>
+    <script src="./scripts/mobil-menu.js"></script>
+    <script src="./scripts/calculateReciept1.js"></script>
 </body>
 
 </html>

@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="favicon.svg" sizes="48x48" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
     <title>Kontakt</title>
 </head>
 
@@ -14,14 +13,25 @@
     <!-- Header Section -->
     <div class="header_box">
         <header>
-            <a href="index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
             <nav id="header-nav" class="header-nav">
                 <ul class="desktop-menu">
-                    <li><a href="./index.html" class="header_nav_link active-page">Start</a></li>
+                    <li><a href="./index.html" class="header_nav_link">Start</a></li>
                     <li><a href="./rezept1.html" class="header_nav_link">Rezept des Tages</a></li>
-                    <li><a href="./contact.html" class="header_nav_link">Kontakt</a></li>
+                    <li><a href="./contact.html" class="header_nav_link active-page">Kontakt</a></li>
                     <li><a href="./imprint.html" class="header_nav_link">Impressum</a></li>
                 </ul>
+                <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="./index.html" class="mobile-nav-link">Start</a></li>
+                        <li><a href="./rezept1.html" class="mobile-nav-link">Rezept des Tages</a></li>
+                        <li><a href="./contact.html" class="mobile-nav-link">Kontakt</a></li>
+                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -29,23 +39,25 @@
 
     <!-- Content Section -->
     <main class="content">
-    <div class="kontakt-formular">
-        <h2>Kontaktiere uns</h2>
-        <form>
-            <label>Dein Name:</label>
-            <input type="text" name="name">
+        <div class="kontakt-container">
+            <div class="kontakt-formular">
+                <h2>Kontaktiere uns</h2>
+                <form onsubmit="sendMail(event)">
+                    <label>Dein Name:</label>
+                    <input type="text" name="name">
 
-            <label>Deine E-Mail:</label>
-            <input type="email" name="email">
+                    <label>Deine E-Mail:</label>
+                    <input type="email" name="email">
 
-            <label>Deine Nachricht:</label>
-            <textarea name="message" rows="6"></textarea>
+                    <label>Deine Nachricht:</label>
+                    <textarea name="message" rows="6"></textarea>
 
-            <div class="button-wrapper">
-                <button type="submit">Abschicken</button>
+                    <div class="button-wrapper">
+                        <button type="submit">Abschicken</button>
+                    </div>
+                </form>
             </div>
-        </form>
-    </div>
+        </div>
     </main>
     <!-- -----end----- -->
 
@@ -67,7 +79,8 @@
 
     </footer>
     <!-- -----end----- -->
-
+    <script src="./scripts/mobil-menu.js"></script>
+    <script src="./scripts/contact.js"></script>
 </body>
 
 </html>

@@ -6,6 +6,8 @@
 @import url(table.css);
 @import url(mobil-menu.css);
 @import url(responsive.css);
+@import url(impressum.css);
+@import url(contact.css);
 
 body {
     display: flex;
@@ -22,7 +24,7 @@ main {
 }
 
 .content {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .button {
@@ -35,4 +37,12 @@ main {
     margin-top: 30px;
     text-align: center;
     border: none;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
 }

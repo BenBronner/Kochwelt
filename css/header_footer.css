@@ -32,6 +32,13 @@ header {
     font-weight: bold;
 }
 
+.header_nav_link:hover {
+    text-decoration: none;
+    color: var(--primaryColor);
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .desktop-menu {
     display: flex;
     justify-content: space-between;

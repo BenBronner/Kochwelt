@@ -13,7 +13,7 @@
     <!-- Header Section -->
     <div class="header_box">
         <header>
-            <a href="index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
+            <a href="./index.html"><img src="./img/logo.png" alt="Logo" class="logo"></a>
             <nav id="header-nav" class="header-nav">
                 <ul class="desktop-menu">
                     <li><a href="./index.html" class="header_nav_link active-page">Start</a></li>
@@ -21,6 +21,17 @@
                     <li><a href="./contact.html" class="header_nav_link">Kontakt</a></li>
                     <li><a href="./imprint.html" class="header_nav_link">Impressum</a></li>
                 </ul>
+                <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                    <ul class="mobile-menu">
+                        <li><a href="./index.html" class="mobile-nav-link">Start</a></li>
+                        <li><a href="./rezept1.html" class="mobile-nav-link">Rezept des Tages</a></li>
+                        <li><a href="./contact.html" class="mobile-nav-link">Kontakt</a></li>
+                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li>
+                    </ul>
+                </div>
             </nav>
         </header>
     </div>
@@ -75,9 +86,12 @@
             <div class="info-content">
                 <div class="">
                     <span>
-                        <p>Elektrogrillen macht aus jedem Tag einen Grilltag. Egal ob auf dem Balkon, in der Wohnung oder im Garten - Sie können das ganze Jahr über Ihre Lieblingsgerichte genießen.</p>
+                        <p>Elektrogrillen macht aus jedem Tag einen Grilltag. Egal ob auf dem Balkon, in der Wohnung
+                            oder im Garten - Sie können das ganze Jahr über Ihre Lieblingsgerichte genießen.</p>
                         <br>
-                        <p>Die Jahreszeit spielt keine Rolle - bei uns ist immer Grillzeit! Während andere Grillfreunde im Winter auf ihre Lieblingsgerichte verzichten müssen, können Sie auch an Schneetagen Ihre Lieblingsspeisen zubereiten.</p>
+                        <p>Die Jahreszeit spielt keine Rolle - bei uns ist immer Grillzeit! Während andere Grillfreunde
+                            im Winter auf ihre Lieblingsgerichte verzichten müssen, können Sie auch an Schneetagen Ihre
+                            Lieblingsspeisen zubereiten.</p>
                     </span>
                 </div>
                 <div class="">
@@ -105,7 +119,7 @@
 
     </footer>
     <!-- -----end----- -->
-
+    <script src="./scripts/mobil-menu.js"></script>
 </body>
 
 </html>
