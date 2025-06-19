@@ -8,7 +8,6 @@ header {
     max-width: 1440px;
     margin: 0 auto;
     z-index: 1000;
-    background-color: white;
 }
 
 .header_box {
@@ -17,6 +16,7 @@ header {
     max-width: 100%;
     position: sticky;
     top: 0px;
+    background-color: white;
 }
 
 .header-nav {
