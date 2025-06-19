@@ -46,7 +46,6 @@
 
 .min-icon {
     width: 16px;
-    width: 16px;
     margin-right: 10px;
 }
 
@@ -70,22 +69,20 @@
 
 .zutaten-2 {
     margin-left: 16px;
-    padding: 8px 50px;
+    padding: 8px 20px;
+    width: 150px;       
+    max-width: 100%;   
+    box-sizing: border-box; 
 }
-
 
 
 .separator {
     background-color: #d9d7d7;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
     width: 100%;
     max-width: 1440px;
     margin-top: 10px;
     height: 5px;
-
+    border-radius: 2px; 
 }
 
 
@@ -107,11 +104,6 @@
     align-items: center;
     justify-content: start;
     margin-right: 16px;
-}
-
-.input {
-    margin-left: 16px;
-    padding: 8px 50px;
 }
 
 
@@ -161,4 +153,87 @@
     flex-direction: row;
     gap: 32px;
     padding-bottom: 100px;
+}
+@media(max-width: 768px) {}
+
+@media(max-width: 425px) {
+    .sectionBanner {
+        padding-top: 32px;
+    }
+
+    .inputsection {
+        margin-left: 10px;
+    }
+
+    .iconContent {
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .icon_info {
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .separator {
+        margin-top: 0px;
+    }
+
+    .inputsection input {
+        width: 90px;
+    }
+
+    .sectionPreparation a {
+        margin: auto;
+    }
+
+    .button {
+        width: 120px;
+    }
+
+    .button2 {
+        margin: auto;
+        width: 220px;
+    }
+}
+
+@media(max-width: 320px) {
+ 
+
+    .inputsection {
+        margin-left: 10px;
+    }
+
+    .iconContent {
+        justify-content: start;
+        flex-direction: column;
+    }
+
+    .icon_info {
+        justify-content: start;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .separator {
+        margin-top: 0px;
+    }
+
+    .inputsection input {
+        width: auto;
+    }
+
+    .button {
+        width: 120px;
+    }
+
+    .button2 {
+        margin: auto;
+        width: 220px;
+    }
+    .zutaten-2 {
+        width: 80px;  
+        padding: 6px 10px; 
+    }
 }

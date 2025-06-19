@@ -8,6 +8,7 @@
 @import url(responsive.css);
 @import url(impressum.css);
 @import url(contact.css);
+@import url(datenschutz.css);
 
 body {
     display: flex;

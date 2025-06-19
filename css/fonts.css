@@ -30,8 +30,22 @@ h3 {
     margin-block-end: 12px;
 }
 
+h4 {
+    font-size: 16px;
+    margin-block-start: 12px;
+    margin-block-end: 12px;
+}
+
 p {
     font-size: 16px;
+}
+
+.datenschutz-css a:link{
+    color: var(--primaryColor);
+}
+
+.impressum-css a:link{
+    color: var(--primaryColor);
 }
 
 @media(max-width: 768px) {

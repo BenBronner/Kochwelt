@@ -22,6 +22,7 @@
                     <li><a href="./rezept1.html" class="header_nav_link">Rezept des Tages</a></li>
                     <li><a href="./contact.html" class="header_nav_link">Kontakt</a></li>
                     <li><a href="./imprint.html" class="header_nav_link">Impressum</a></li>
+                    <li><a href="./datenschutz.html" class="header_nav_link">Datenschutz</a></li>
                 </ul>
                 <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
                     <div class="line1"></div>
@@ -31,7 +32,8 @@
                         <li><a href="./index.html" class="mobile-nav-link">Start</a></li><hr>
                         <li><a href="./rezept1.html" class="mobile-nav-link">Rezept des Tages</a></li><hr>
                         <li><a href="./contact.html" class="mobile-nav-link">Kontakt</a></li><hr>
-                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li>
+                        <li><a href="./imprint.html" class="mobile-nav-link">Impressum</a></li><hr>
+                        <li><a href="./datenschutz.html" class="header_nav_link">Datenschutz</a></li>
                     </ul>
                 </div>
             </nav>
@@ -68,9 +70,7 @@
                 <div class="zutaten-1">
                     <p>Zutaten für</p>
                     <input type="number" id="quantity" name="quantity" value="4" min="1" max="10" class="zutaten-2">
-
-                    <input type="submit" value="Portionen" class="button btn-position" />
-
+                    <button type="submit" id="button" class="button" name="Portionen">Portionen</button>
                 </div>
             </form>
 
@@ -161,7 +161,7 @@
         <div class="section4">
             <h3>Rezept erstellt von</h3>
             <div class="rezept-von">
-                <img class="profil-img" src="./assets/img/profile.png" alt="">
+                <img class="profil-img" src="./img/Wilhekm.JPG" alt="">
                 <h3>Wilhelm</h3>
             </div>
         </div>
@@ -186,12 +186,8 @@
         </div>
 
     </footer>
-    <button onclick="topFunction()" id="backToTop">
-        <i>&#8593;</i>
-    </button>
     <!-- -----end----- -->
     <script src="./scripts/mobil-menu.js"></script>
-    <script src="./scripts/scrollToTop.js"></script>
     <script src="./scripts/calculateResieptSimple2.js"></script>
 </body>
 

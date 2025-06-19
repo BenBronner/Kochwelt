@@ -1,0 +1,49 @@
+.datenschutz-css {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 48px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 48px;
+}
+
+.datenschutz-css ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.datenschutz-css h2 {
+    margin-top: 48px;
+}
+
+@media(max-width: 425px) {
+    .datenschutz-css {
+        max-width: 425px;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+    }
+
+    .datenschutz-css ul {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .datenschutz-css h1 {
+        text-align: left
+    }
+
+    .datenschutz-css h2 {
+        margin-top: 24px;
+    }
+
+}
