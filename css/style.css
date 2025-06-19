@@ -46,3 +46,29 @@ main {
     align-items: center;
     min-height: 70vh;
 }
+
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 20px;
+    z-index: 99;
+    background-color: var(--primaryColor);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+#backToTop:hover {
+    background-color: #45a049;
+}
+
+#backToTop i {
+    font-size: 24px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: bold;
+}
